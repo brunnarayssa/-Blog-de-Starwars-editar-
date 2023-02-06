@@ -1,6 +1,6 @@
 /*secciones*/
 .sectionTitle {
-    color: #dc3545;
+    color: #210766;
     padding-bottom: 20px;
     text-align: left;
 }
@@ -34,15 +34,15 @@
 
 .likeButton {
     background-color: white !important;
-    border: 1px #ffc107 solid !important;
+    border: 1px #358faa solid !important;
     margin-top: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
     float: right;
-    color: #ffc107 !important;
+    color: #07cdff !important;
 }
 .selected {
-    background-color: #ffc107 !important;
+    background-color: #07a4ff !important;
     color: black !important
 }
 
@@ -92,8 +92,8 @@ input,
 }
 /*single-footer*/
 .singleFooter {
-    border-top: solid #dc3545 1px;
+    border-top: solid #4f508f 1px;
     margin-top: 20px;
-    color: #dc3545;
+    color: #003764;
     font-weight: 700;
 }
