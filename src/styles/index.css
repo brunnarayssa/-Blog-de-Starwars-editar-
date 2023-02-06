@@ -1,3 +1,99 @@
-/* 
-    General Styles
-*/
+/*secciones*/
+.sectionTitle {
+    color: #dc3545;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.col-3{
+    width: 18rem;
+    margin-right: 10px;    
+}
+.rowSection {
+    overflow-x: scroll;
+    width: 100%;
+}
+.text-center {
+    margin-right: 8vw;
+    margin-left: 8vw;
+}
+
+/*cards*/
+.card-text {
+    margin-bottom: 0
+}
+.card-body {
+    text-align: left;
+}
+.learnMoreButton {
+    background-color: white;
+    border: 1px #0d6efd solid;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
+.likeButton {
+    background-color: white !important;
+    border: 1px #ffc107 solid !important;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    float: right;
+    color: #ffc107 !important;
+}
+.selected {
+    background-color: #ffc107 !important;
+    color: black !important
+}
+
+label:hover,
+input,
+.fa-heart:hover {
+    background-color: #ffc107 !important;
+    color: black !important;
+    border: 1px #ffc107 solid !important;
+}
+
+/*secciones Planetas*/
+.planetsSection{
+    margin-top: 40px
+}
+
+/*navbar*/
+.main-logo{
+    width: 100px; 
+    height: 40px; 
+    object-fit: cover;
+    margin-left: 8vw;
+}
+.dropdown-toggle{
+    margin-right: 8vw
+}
+.fa-trash-can{
+    float: right;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+/*singles*/
+.imageSingle{
+    width: 430px; 
+    height: 350px; 
+    object-fit: cover;
+}
+.cardBodySingle{
+    align-content: center;
+    text-align: center;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.mb-3{
+    border: none
+}
+/*single-footer*/
+.singleFooter {
+    border-top: solid #dc3545 1px;
+    margin-top: 20px;
+    color: #dc3545;
+    font-weight: 700;
+}
